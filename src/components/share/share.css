@@ -1,0 +1,90 @@
+.share{
+    width: 97%;
+   margin: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.21);
+        -webkit-box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.21);
+}
+
+.sharetop{
+    display: flex;
+    flex-direction: row;
+    
+    height: 4rem;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.shareimg {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.shareinput {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.sharebottom {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+
+.option {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.ps-button{
+    width: 14%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.hr {
+    width: 90%;
+    color: gray;
+    font-weight: 900;
+    margin: 20px;
+    background-color: gray;
+}
+
+.previewImage {
+    position: relative;
+    z-index: 200;
+    width: 100%;
+}
+
+.previewImage>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.previewImage>img {
+    position: relative;
+    width: 90%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}

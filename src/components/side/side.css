@@ -1,0 +1,60 @@
+.side{
+    flex: 2;
+    position: sticky;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #d8d6d6;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(152, 151, 151);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(180, 178, 178);
+}
+
+.sidebarwrapper {
+    padding: 20px;
+}
+
+.sidebarlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebaritem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebaritem>a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebaricon {
+    margin-right: 15px;
+    font-size: 25px;
+    color: skyblue;
+}
+
+.sidebarButton {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,54 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+
+.leftside>h1 {
+   color: orangered;
+   font-size: 50px;
+   cursor: pointer;
+}
+
+.leftside>h4 {
+    color: orange;
+    cursor: pointer;
+   font-size: 20px; 
+}
+
+.inform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: gainsboro;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.inform>div {
+    display: flex;
+    gap: 0.5rem;
+    height: 2rem;
+    width: 100%;
+    
+}
+
+.infoButton {
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+}
+
+.info {
+    border: 1px solid white;
+    outline: none;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}

@@ -1,0 +1,53 @@
+.right{
+    flex: 3.5;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.follower {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 1px;
+    justify-content: space-between;
+    width: 70%;
+}
+.fln {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.followimg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;  
+}
+
+.followName{
+    margin-right: 10px;
+}
+
+.fl-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+
+}
+
+.UnfollowButton{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    background-color: black;
+}

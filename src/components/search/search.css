@@ -1,0 +1,27 @@
+.search {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: rgb(239, 234, 234);
+    width: 65%;
+    height: 2rem;
+    border-radius: 40px;
+}
+
+.searchicon {
+    font-size: 1.2rem;
+}
+
+.searchtext {
+    border: none;
+    background-color: transparent;
+    width: 13rem;
+    font-size: 1rem;
+}
+
+.searchtext:focus {
+    outline: none;
+    border: none;
+}
